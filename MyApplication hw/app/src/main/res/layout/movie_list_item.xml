@@ -6,6 +6,25 @@
     android:layout_width="match_parent"
     android:layout_height="300dp">
 
+    <TextView
+        android:id="@+id/delete2"
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="Remove"
+        android:textAlignment="textEnd"
+        android:textColor="#1B1B1B" />
+
+    <ImageView
+        android:id="@+id/remove"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@android:drawable/ic_delete" />
+
     <ImageView
         android:id="@+id/img1"
         android:layout_width="215dp"
